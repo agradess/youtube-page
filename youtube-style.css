@@ -1,0 +1,172 @@
+* {
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+body {
+  background-color:rgb(230,230,230);
+  overflow-y:scroll;
+  font-family:Helvetica,sans-serif;
+}
+
+h2, h3 {
+  font-weight:300;
+}
+
+/*video suggestion styling*/
+tbody tr {
+  position:relative;
+  width:400px;
+  height:100px;
+  background-color:white;
+  padding:10px;
+  float:left;
+  clear:left;
+}
+
+tbody img {
+  position:relative;
+  display:inline-block;
+  margin-right:10px;
+  padding:5px;
+  float:left;
+  height:100px;
+  width:180px;
+}
+
+tbody p {
+  display:inline-block;
+  float:left;
+  font-weight:200;
+  font-size:11px;
+  color:Gray;
+}
+
+span {
+  font-size:0.8em;
+  color:gray;
+}
+
+video {
+  position:relative;
+  display:inline-block;
+  width:640px;
+  height:366px;
+  float:left;
+  background: url("https://digitalsynopsis.com/wp-content/uploads/2013/12/link-to-specific-time-youtube-video.jpg") 
+  center top no-repeat;
+  margin:5px 0px;
+  z-index:1;
+}
+
+/*buttons and ids for changing size of the video player*/
+#theater-button {
+  position: relative;
+  float: right;
+  display: inline-block;
+  width: 25px;
+  height: 15px;
+  margin: 10px;
+  border: 2px solid white;
+}
+
+#full-button {
+  position:relative;
+  float:right;
+  display:inline-block;
+  width:32px;
+  height:20px;
+  margin: 5px 3px;
+  border: 2px solid white;
+}
+
+#video-theater {
+  width:
+  height:
+}
+
+#video-fullscreen {
+  width:
+  height:  
+}
+
+#navbar {
+  width:200px;
+  margin-left:-15px;
+  padding:15px;
+  border: 1px solid lightGray;
+  position:relative;
+  clear:left;
+  background-color:white;
+}
+
+#navbar span {
+  display:block;
+  padding:10px;
+  color:black;
+}
+
+#navbar span:hover {
+  background-color:rgb(75,75,75);
+  color:white;
+}
+
+#heading {
+  position:fixed;
+  display:block;
+  float:left;
+  width:100%;
+  height:50px;
+  background-color:white;
+  border-bottom: 1px solid lightGray;
+  padding:5px 15px;
+  z-index:1000;
+}
+
+#left-side {
+  positon:relative;
+  clear:left;
+  width:640px;
+  /*height:100%;*/
+  margin:10px 5px 50px 100px;
+}
+
+.left-text {
+  width:100%;
+  padding:10px;
+  margin:5px 0px;
+  border-left: 1px solid lightGray;
+  border-bottom: 1px solid lightGray;
+  float:left;
+  clear:left;
+  background-color:white;
+  font-family:Helvetica,sans-serif;
+}
+
+.left-text img {
+  padding: 5px;
+  display:inline-block;
+}
+
+.left-text p {
+  position:absolute;
+  display:inline-block;
+  font-size:1em;
+}
+
+.left-text button {
+  width:60px;
+  height:20px;
+  text-align:center center;
+  background-color:red;
+}
+
+.suggestions {
+  position:relative;
+  display:inline-block;
+  margin:20px 100px 200px 10px;
+  width:250px;
+  clear:right;
+}
+
